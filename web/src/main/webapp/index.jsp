@@ -13,7 +13,7 @@
 <body>
   <h1>congrats for building CI/CD</h1>
   <p>
-    This is a very simple example web page on a JSP. Changes made to show redeploy from Jenkins.
+    This is a very simple example web page on a JSP using GIT Jenkins Mavne Project and Tomcat. Changes made to show redeploy from Jenkins.
   </p>
 </body>
 </html>
