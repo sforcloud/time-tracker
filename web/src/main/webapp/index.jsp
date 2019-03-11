@@ -11,7 +11,7 @@
     <title>Very Simple Example Webpage deployed through Jenkins</title>
 </head>
 <body>
-  <h1>congrats for building CI/CD</h1>
+  <h1>congrats for building CI/CD and buiulding copiying this artifact to tomcat server</h1>
   <p>
     This is a very simple example web page on a JSP using GIT Jenkins Mavne Project and Tomcat. Changes made to show redeploy from Jenkins.
   </p>
