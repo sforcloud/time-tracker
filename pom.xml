@@ -59,7 +59,25 @@
             </plugins>
         </pluginManagement>
     </build>
-
+    <settings>
+    <pluginGroups>
+        <pluginGroup>org.sonarsource.scanner.maven</pluginGroup>
+    </pluginGroups>
+    <profiles>
+        <profile>
+            <id>sonar</id>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+            <properties>
+                <!-- Optional URL to server. Default value is http://18.210.15.254:9000/ -->
+                <sonar.host.url>
+                  http://18.210.15.254:9000
+                </sonar.host.url>
+            </properties>
+        </profile>
+     </profiles>
+    </settings>
     <reporting>
         <plugins>
             <plugin>
